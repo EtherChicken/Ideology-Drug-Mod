@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETH_IdeologyDrugMod", "ETH_IdeologyDrugMod.csproj", "{DCBB1508-136B-4405-8F94-DCEC3EEBD7DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Glerp|Any CPU = Glerp|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBB1508-136B-4405-8F94-DCEC3EEBD7DE}.Glerp|Any CPU.ActiveCfg = Glerp|Any CPU
+		{DCBB1508-136B-4405-8F94-DCEC3EEBD7DE}.Glerp|Any CPU.Build.0 = Glerp|Any CPU
+	EndGlobalSection
+EndGlobal

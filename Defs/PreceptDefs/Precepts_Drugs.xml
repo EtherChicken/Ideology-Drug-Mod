@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IssueDef>
+    <defName>DrugsVenerated</defName>
+    <label>Venerated drug</label>
+    <allowMultiplePrecepts>true</allowMultiplePrecepts>
+  </IssueDef>
+
+  <PreceptDef>
+    <defName>DrugVenerated</defName>
+    <issue>DrugsVenerated</issue>
+    <label>Venerated</label>
+    <description>Believers consider this drug to be of the highest spiritual value, and taking it is part of their normal life. After a set amount of time without taking this drug, the believer will become upset.</description>
+    <preceptClass>IdeologyDrugMod.Precept_Drug</preceptClass>
+		<workerClass>IdeologyDrugMod.PreceptWorker_Drug</workerClass>
+		<useChoicesFromBuildingDefs>true</useChoicesFromBuildingDefs>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+    <impact>Medium</impact>
+    <maxCount>6</maxCount>
+    <comps>
+      <li Class="PreceptComp_SituationalThought">
+        <thought>TookVeneratedDrug</thought>
+        <thoughtStageDescriptions>
+          <li>just took venerated drug</li>
+          <li>took venerated drug recently</li>
+          <li>no venerated drugs recently</li>
+					<li></li>
+          
+        </thoughtStageDescriptions>
+      </li>
+    </comps>
+  </PreceptDef>
+
+
+  <!-- Thoughts -->
+
+  <ThoughtDef>
+    <defName>TookVeneratedDrug</defName>
+    <thoughtClass>IdeologyDrugMod.Thought_Situational_Precept_Drug</thoughtClass>
+    <workerClass>IdeologyDrugMod.ThoughtWorker_Precept_Drug</workerClass>
+    <stages>
+      <li>
+        <label>venerated drug</label>
+				<description>I just took a venerated drug, it's effects have enhanced my spirit.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>venerated drug</label>
+				<visible>false</visible>
+      </li>
+			<li>
+				<label>venerated drug missing</label>
+				<description>I haven't taken a venerated drug recently, I feel the dread from being without the enhancement.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>venerated drug missing</label>
+				<description>It's been so long since I took a venerated drug. I feel like I am losing touch with my Ideoligion and my spirit.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+    </stages>
+  </ThoughtDef>
+
+
+</Defs>

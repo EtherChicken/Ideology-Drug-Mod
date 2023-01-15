@@ -1,0 +1,10 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Assemblies\ETH_IdeologyDrugMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Assemblies\ETH_IdeologyDrugMod.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.pdb
