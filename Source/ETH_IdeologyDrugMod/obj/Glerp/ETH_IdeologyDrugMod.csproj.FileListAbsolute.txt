@@ -8,3 +8,9 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\So
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Ideology Drug Mod\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Assemblies\ETH_IdeologyDrugMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Assemblies\ETH_IdeologyDrugMod.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Venerated Drugs\Source\ETH_IdeologyDrugMod\obj\Glerp\ETH_IdeologyDrugMod.pdb

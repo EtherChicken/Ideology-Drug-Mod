@@ -5,13 +5,15 @@ using Verse;
 
 namespace IdeologyDrugMod;
 
+// PreceptWorker is how the list of drugs gets created
 public class PreceptWorker_Drug : PreceptWorker
 {
-
+    // This method enumerates all the ThingDefs put in the list by the getter
     public override IEnumerable<PreceptThingChance> ThingDefs
     {
         get
         {
+            // foreach def with the category of drug gets added to the IEnumerable with yield return
             foreach (ThingDef item in DefDatabase<ThingDef>.AllDefs.Where((ThingDef x) => x.thingCategories != null &&
                          x.thingCategories.Contains(ThingCategoryDefOf.Drugs)))
             {
@@ -22,23 +24,24 @@ public class PreceptWorker_Drug : PreceptWorker
             }
         }
     }
-
+    
     public override AcceptanceReport CanUse(ThingDef def, Ideo ideo, FactionDef generatingFor)
     {
-        /* DNSpy code
-         using (List<Precept>.Enumerator enumerator = ideo.PreceptsListForReading.GetEnumerator())
-        {
-            while (enumerator.MoveNext())
+
+            /* DNSpy code
+             using (List<Precept>.Enumerator enumerator = ideo.PreceptsListForReading.GetEnumerator())
             {
-                Precept_Drug precept_Drug;
-                if ((precept_Drug = (enumerator.Current as Precept_Drug)) != null && precept_Drug.ThingDef == def)
+                while (enumerator.MoveNext())
                 {
-                    return false;
+                    Precept_Drug precept_Drug;
+                    if ((precept_Drug = (enumerator.Current as Precept_Drug)) != null && precept_Drug.ThingDef == def)
+                    {
+                        return false;
+                    }
                 }
             }
-        }
-
-        return true;*/
+    
+            return true;*/
         //ILSpy code
         foreach (Precept item in ideo.PreceptsListForReading)
         {

@@ -4,6 +4,7 @@ using Verse;
 
 namespace IdeologyDrugMod;
 
+// Literally just copied this from Precept_Animal and changed the name to mine
 public class Precept_Drug : Precept_ThingDef
 {
     

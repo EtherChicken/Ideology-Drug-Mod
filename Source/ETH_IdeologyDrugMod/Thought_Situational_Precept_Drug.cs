@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace IdeologyDrugMod;
 
+//Thought Situational for the mood from days since venerated drug
 public class Thought_Situational_Precept_Drug : Thought_Situational
 {
     protected override float BaseMoodOffset

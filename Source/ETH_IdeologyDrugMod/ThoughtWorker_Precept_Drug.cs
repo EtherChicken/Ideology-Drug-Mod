@@ -4,6 +4,7 @@ using Verse;
 
 namespace IdeologyDrugMod;
 
+// ThoughtWorker_Precept drug
 public class ThoughtWorker_Precept_Drug : ThoughtWorker_Precept, IPreceptCompDescriptionArgs
 {
     private const float DaysSatisfied = 0.75f;
@@ -16,12 +17,14 @@ public class ThoughtWorker_Precept_Drug : ThoughtWorker_Precept, IPreceptCompDes
 
     public static readonly SimpleCurve MoodOffsetFromDaysSinceLastDrugCurve = new SimpleCurve
     {
+        //Curve for mood based on days since last drug (dont really know if it curves the mood in game or is something else)
         new CurvePoint(0.75f, 3f),
         new CurvePoint(1f, 0f),
         new CurvePoint(2f, -1f),
         new CurvePoint(11f, -10f)
     };
 
+    // Based on the number of days since taking a drug give a thought based on my xml thought
     protected override ThoughtState ShouldHaveThought(Pawn p)
     {
         if (!ThoughtUtility.ThoughtNullified(p, def))

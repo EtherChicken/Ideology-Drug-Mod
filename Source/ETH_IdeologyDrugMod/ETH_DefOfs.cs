@@ -3,6 +3,7 @@
 namespace IdeologyDrugMod;
 
 [DefOf]
+//My Venerated Drug class that allows for the precepts in the IdeoUIUtility window and the issue for in game
 public static class ETH_VeneratedDrug
 {
     

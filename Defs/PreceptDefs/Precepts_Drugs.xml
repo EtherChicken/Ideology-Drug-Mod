@@ -40,6 +40,9 @@
     <defName>TookVeneratedDrug</defName>
     <thoughtClass>IdeologyDrugMod.Thought_Situational_Precept_Drug</thoughtClass>
     <workerClass>IdeologyDrugMod.ThoughtWorker_Precept_Drug</workerClass>
+		<nullifyingTraitDegrees>
+			<DrugDesire>-1</DrugDesire>
+    </nullifyingTraitDegrees>
     <stages>
       <li>
         <label>venerated drug</label>
